@@ -1,0 +1,30 @@
+#container{
+    display: flex;
+    background-color: rgb(226, 226, 226);
+    box-sizing: border-box;
+    width: 350px;
+    flex-wrap: wrap;
+}
+
+
+#ecran{
+    min-width: 350px;
+    min-height: 50px;
+    text-align: center;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.touche{
+    min-width: 87.5px;
+    background-color: rgb(246, 236, 103);
+    box-sizing: border-box;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.touche0{
+    flex-grow:1;
+}
+
+
