@@ -10,16 +10,16 @@ const multiplication = (a,b) => a*b;
 
 const operation = (operateur, a, b) => {
     if(operateur === "+"){
-        add(a,b);
+        return add(a,b);
     }
     else if(operateur === "-"){
-        soustraction(a,b);
+       return soustraction(a,b);
     }
     else if(operateur === "÷"){
-        division(a,b);
+       return division(a,b);
     }
     else if (operateur === "x"){
-        multiplication(a,b);
+       return multiplication(a,b);
     }
 };
 
