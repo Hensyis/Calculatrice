@@ -13,6 +13,12 @@
     text-align: center;
     border: 1px solid black;
     box-sizing: border-box;
+    display: flex;
+    justify-content: end;
+}
+
+#ecran>p{
+    margin-right: 10px;
 }
 
 .touche{
